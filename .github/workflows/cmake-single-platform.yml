@@ -43,7 +43,7 @@ jobs:
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
 
     - name: Run
-      working-directory: ${{github.workspace}}/build/src/${{env.BUILD_TYPE}}
+      working-directory: ${{github.workspace}}/cmake_pratique/build/src/${{env.BUILD_TYPE}}
       run: |
         start /b .\cmake_pratique.exe
         timeout /t 5
