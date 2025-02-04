@@ -1,0 +1,51 @@
+name: cmake_pratique
+
+on:
+  push:
+    branches: [ "main" ]
+
+env:
+  BUILD_TYPE: Release
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup vcpkg
+      run: |
+        git clone https://github.com/microsoft/vcpkg.git
+        cd vcpkg
+        .\bootstrap-vcpkg.bat
+        $vcpkg_root = $(Get-Location).Path
+        echo "VCPKG_ROOT=$vcpkg_root" | Out-File -FilePath $env:GITHUB_ENV -Append
+        echo "$vcpkg_root" | Out-File -FilePath $env:GITHUB_PATH -Append
+      shell: pwsh
+
+    - name: Add dependencies
+      working-directory: ${{github.workspace}}
+      run: |
+        vcpkg new --application
+        vcpkg add port sfml
+      shell: cmd
+
+    - name: Configure CMake
+      working-directory: ${{github.workspace}}
+      run: |
+        cmake -S . -B build `
+        -DCMAKE_BUILD_TYPE=${{env.BUILD_TYPE}} `
+        -DCMAKE_TOOLCHAIN_FILE="$env:VCPKG_ROOT/scripts/buildsystems/vcpkg.cmake"
+      shell: pwsh
+
+    - name: Build
+      run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
+
+    - name: Run
+      working-directory: ${{github.workspace}}/build/src/${{env.BUILD_TYPE}}
+      run: |
+        start /b .\cmake_pratique.exe
+        timeout /t 5
+        taskkill /f /im cmake_pratique.exe
+      shell: cmd
