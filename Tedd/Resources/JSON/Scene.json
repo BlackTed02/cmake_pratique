@@ -1,0 +1,29 @@
+{
+    "Entities": [
+        {
+            "Component": {
+                "RectRenderer": {
+                    "color": [
+                        248,
+                        239,
+                        58,
+                        255
+                    ],
+                    "texture": "Bernard_Tapie_1994.jpg"
+                },
+                "TransformComponent": {
+                    "angle": 49.0,
+                    "position": [
+                        600.0,
+                        400.0
+                    ],
+                    "scale": [
+                        400.0,
+                        400.0
+                    ]
+                }
+            },
+            "name": "Bernard pipi"
+        }
+    ]
+}
