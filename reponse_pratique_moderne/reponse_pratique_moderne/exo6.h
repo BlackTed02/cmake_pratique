@@ -15,7 +15,7 @@ std::optional<std::vector<int>> findStudentScores(const std::string& name) {
     
     if (it != studentScores.end())
     {
-        return std::make_optional<std::vector<int>>(studentScores[name]);
+        return std::make_optional<std::vector<int>>(it->second);
     }
     else
     {

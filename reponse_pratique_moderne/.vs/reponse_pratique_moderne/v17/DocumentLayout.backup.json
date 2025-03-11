@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|solutionrelative:reponse_pratique_moderne\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|solutionrelative:reponse_pratique_moderne\\exo6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo7.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|solutionrelative:reponse_pratique_moderne\\exo7.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|solutionrelative:reponse_pratique_moderne\\exo6.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F1FF0447-4351-4FA8-822D-018F2EE03160}|reponse_pratique_moderne\\reponse_pratique_moderne.vcxproj|C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo11.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -46,7 +46,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "exo6.h",
               "DocumentMoniker": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo6.h",
               "RelativeDocumentMoniker": "reponse_pratique_moderne\\exo6.h",
@@ -59,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "exo7.h",
               "DocumentMoniker": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo7.h",
               "RelativeDocumentMoniker": "reponse_pratique_moderne\\exo7.h",
               "ToolTip": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\exo7.h",
               "RelativeToolTip": "reponse_pratique_moderne\\exo7.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-11T09:22:33.691Z",
               "EditorCaption": ""
@@ -141,9 +141,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\main.cpp",
               "RelativeDocumentMoniker": "reponse_pratique_moderne\\main.cpp",
-              "ToolTip": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\main.cpp*",
-              "RelativeToolTip": "reponse_pratique_moderne\\main.cpp*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\t.bonnefoy\\Documents\\GitHub\\cmake_pratique\\reponse_pratique_moderne\\reponse_pratique_moderne\\main.cpp",
+              "RelativeToolTip": "reponse_pratique_moderne\\main.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-11T08:26:56.293Z",
               "EditorCaption": ""
